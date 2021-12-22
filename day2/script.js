@@ -74,9 +74,7 @@ After following these new instructions, you would have a horizontal position of 
 Using this new interpretation of the commands, calculate the horizontal position and depth you would have after following the planned course. What do you get if you multiply your final horizontal position by your final depth?
 */
 
-let aim = 0;
-depth = 0;
-horpos = 0;
+let aim = depth = horpos = 0;
 course.forEach(function(direction) {
     let dirarr = direction.split(' ');
     if (dirarr[0] === 'forward') {
